@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+  <title>Slide 16</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#000080" vlink="#0000CC" alink="#000080">
+<center>
+<a href="text0.html">First page</a> <a href="text14.html">Back</a> <a href="text16.html">Continue</a> <a href="text49.html">Last page</a> <a href="PowerTools-I.htm">Overview</a> <a href="img15.html">Graphics</a></center><br>
+<h1 style="direction:ltr;">Other components</h1>
+<ul><li style="direction:ltr;"><h2>MANIFEST.SKIP</h2></li>
+<ul><li style="direction:ltr;">Usually not necessary; default behavior often is fine.  Sometimes 'make distcheck', 'make manifest', and other EU::MM tools find files that you don't want in your distribution.  MANIFEST.SKIP keeps them out.</li>
+<li style="direction:ltr;">If you need a MANIFEST.SKIP file, you also need to read the documentation for ExtUtils::Manifest to understand what defaults you need to specify.</li>
+</ul><li style="direction:ltr;"><h2>You may safely ignore for now:</h2></li>
+<ul><li style="direction:ltr;">blib/ (This is where a pre-install build of your module resides for testing)</li>
+<li style="direction:ltr;">pm_to_blib</li>
+<li style="direction:ltr;">MYMETA.yml, MYMETA.json (instance-specific copies of META.*)</li>
+<li style="direction:ltr;">Makefile (Makefile.PL uses ExtUtils::MakeMaker to create it for you)</li>
+</ul></ul></body>
+</html>
