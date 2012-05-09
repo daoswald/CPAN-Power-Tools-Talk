@@ -8,19 +8,11 @@ Part II: Using the CPAN tools for private distributions.
 
 Files:
 
-CPAN-Power-Tools-Talk.odf	Libre Office Impress document.
-public/Power-Tools-I.htm	Starting point for HTML version of presentation.
-myapp.pl			Mojolicious Lite-App for HTML version.
-public/*.html			Individual slides.
-public/*.png			Graphics for slides and navigation buttons.
-
+Power-Tools-I.odf   Libre Office Impress document.
+Power-Tools-II.odf  Libre Office Impress document.
 
 The .odf format is the native presentation format.
 
-To use the HTML format:
-morbo myapp.pl
-
-Then point a browser at server.ip.address:3000
-
-Enjoy!
+app/                The mojopig application (excludes dependencies just to be
+                    nice to Github).
 

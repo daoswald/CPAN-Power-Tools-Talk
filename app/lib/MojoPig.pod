@@ -1,0 +1,4 @@
+=head1 MojoPig
+
+Translate any phrase into pig latin.
+

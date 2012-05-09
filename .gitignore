@@ -1,0 +1,9 @@
+app/Makefile
+app/Makefile.old
+app/blib/
+app/inc/
+app/pm_to_blib
+app/*.bmp
+app/MYMETA.json
+app/MYMETA.yml
+piglatin.bmp
